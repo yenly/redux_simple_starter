@@ -1,6 +1,7 @@
 import React from 'react';
 
 const VideoDetail = ({video}) => {
+  // do this check rarely
   if (!video) {
     return <div>Loading...</div>;
   }
